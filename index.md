@@ -1,16 +1,7 @@
-this is the index
-trying out some markdown language editor
-"I didn't *take* the money"
-"*I* didn't take the money"
-"I **didn't** take the money"
-# Heading test
-## bigger heading
-[Link](https://sll002.github.io/cse15l-lab-reports/)
-![Image](https://commonmark.org/help/images/favicon.png)
+# CSE15L Lab Reports
+## By Sam Liu
+[Lab reports home](https://sll002.github.io/cse15l-lab-reports/)
 
->"this is a block quote"
 
-# VScode integration
-this is pretty cool
-
+>Week 2
 [Lab Report 1](lab-report-1-week-2.html)
