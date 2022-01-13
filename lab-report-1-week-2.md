@@ -19,22 +19,22 @@ For this tutorial, I will be showing you how to access the remote SSH server fro
 * Finally type the command `ssh cs15lwi22xxx@ieng6.ucsd.edu` and you will be prompted with password. This is activated to be a password that you reset first at the account look up [tool](https://students.ucsd.edu/campus-services/technology/computers/index.html). 
 
 ## Step 3: Try out some commands
-![Image](images/tryingcommands.png)
+![Image](images/tryingcommands.PNG)
 * Go ahead and try out some commands like `ls` or `ls -a` to show you the files that you have in the current directory
 
 ## Step 4: Moving files with SCP
-![Image](images/scpSS.png)
+![Image](images/scpSS.PNG)
 * With the command `scp "name of your file" "destination"` you can copy over a file that you have on your local computer into the working directory of the server that you are currently logged in at.
 * You can check if its actually there by using the `ls` command again to check.
 
 ## Step 5: Setting a SSH Key
 
-![Image](images/keygen.png)
+![Image](images/keygen.PNG)
 * Using the command `ssh-keygen` you can create and then declare the location of where to save a private key. This allows you to login to your SSH account without entering your password (like face ID)
 * After key creation, login to your SSH. Make sure to save the public key to the list of public keys so that your server account can recognize your local machine.
 
 ## Step 6: Streamline Remote Running!!
 
-![Image](images/nopw.png)
+![Image](images/nopw.PNG)
 * Finally when everything is up and running, you should beable to just use a single command to login to your ssh. Password is not required since your machine has a matching key to the one on the server.
 * Not having to type in your password reduces the time it takes for you to do small but necessary tasks i.e login. But now you will save that time!
