@@ -12,3 +12,5 @@ trying out some markdown language editor
 
 # VScode integration
 this is pretty cool
+
+[Lab Report 1](lab-report-1-week-2.html)
