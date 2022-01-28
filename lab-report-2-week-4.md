@@ -8,7 +8,7 @@ The program is unable to identify the end of a a while loop since there is no en
 
 ![Image](images/p1solution.PNG)
 
-![Image](images/p1output.PNG)
+![Image](images/p1output.png)
 
 The bug in this program that we fixed later was that there would be no end condition in the loop since it cannot find the right bracket. The symptom is that there incurs and infinite loop in the system. The failure inducing input was the extra line at the end of the markdown file.
 
