@@ -22,6 +22,9 @@ For this tutorial, I will be showing you how to access the remote SSH server fro
 ![Image](images/tryingcommands.PNG)
 * Go ahead and try out some commands like `ls` or `ls -a` to show you the files that you have in the current directory
 
+![Image](images/testingcommands2.PNG)
+* You can also try out some other commands like `cd` or `cd ..`. The `cd` command will let you "change directory" and then provide a directory to enter or to go to. The `cd ..` command will pull out up one level back to the parent directory of the one you are currently in!
+
 ## Step 4: Moving files with SCP
 ![Image](images/scpSS.PNG)
 * With the command `scp "name of your file" "destination"` you can copy over a file that you have on your local computer into the working directory of the server that you are currently logged in at.
